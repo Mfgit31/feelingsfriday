@@ -1,0 +1,80 @@
+{
+    "members": [
+        {
+            "id":1,
+            "name":"Kimber",
+            "image":"tbn:ANd9GcT3vbWkAZQ6XSqodaKVoab4eb3ciugJM__0sw",
+            "age": 28,
+            "location":"Ohio, USA",
+            "wins":"My new team",
+            "loss":"Lack of sleep"   
+        },
+
+        {
+            "id":2,
+            "name":"Nate",
+            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+            "age": 21,
+            "location":"Texas, USA",
+            "win":"My new app",
+            "loss":"No losses today"
+        },
+
+        {
+            "id":3,
+            "name":"Marcos",
+            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+            "age": 31,
+            "location":"Maine, USA",
+            "win":"Figuring out react wrong installation",
+            "loss":"Back pain"
+        },
+
+        {
+            "id":4,
+            "name":"Sam",
+            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+            "age": 27,
+            "location":"New York, USA",
+            "win":"Making it through another day",
+            "loss":"Loosing Mario Party game in Nintendo Switch"
+        },
+
+        {
+            "id":5,
+            "name":"Adam",
+            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+            "age": 38,
+            "location":"California, USA",
+            "win":"His cats did not kill each other",
+            "loss":"His cats broke the robot camera"
+        },
+
+
+        {
+            "id":6,
+            "name":"Mustafa",
+            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+            "age": 22,
+            "location":"New York, USA",
+            "win":"Parenthood",
+            "loss":"Too many lectures"
+        }
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}
