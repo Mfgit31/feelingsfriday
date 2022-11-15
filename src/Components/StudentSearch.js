@@ -1,11 +1,11 @@
-import React from "react"
+// import React from "react"
 
-function StudentSearch() {
-    return(
-        <div>
+// // function StudentSearch( { }) {
+// //     return(
+// //         <div>
 
-        </div>
-    )
-}
+// //         </div>
+// //     )
+// // }
 
-export default StudentSearch;
+// // export default StudentSearch;

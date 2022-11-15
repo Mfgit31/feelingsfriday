@@ -1,9 +1,9 @@
 {
-    "members": [
+    "students": [
         {
             "id":1,
             "name":"Kimber",
-            "image":"tbn:ANd9GcT3vbWkAZQ6XSqodaKVoab4eb3ciugJM__0sw",
+            "image":"https://svgsilh.com/svg/297566.svg",
             "age": 28,
             "location":"Ohio, USA",
             "wins":"My new team",

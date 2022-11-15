@@ -1,14 +1,15 @@
 import React from 'react';
+import header from './Header.png'
 
 
 function StudentHeader(){
 
     return (
         <div>
-            <img>
+            <img src={header} alt="Emotions" />
         </div>
 
     );
 }
 
-export default Header;
+export default StudentHeader;
