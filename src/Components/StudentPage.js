@@ -4,7 +4,19 @@ import StudentForm from './StudentForm'
 import StudentList from './StudentList'
 
 function StudentPage( ){
+   
+    const [students, setStudents] = useState([])
+
+
     const [ studentData, setStudentData ] = useState( [ ] )
+
+    const addStudent= (newStudent) => { 
+             setStudents([...students, newStudent])
+        }
+
+    
+    
+
     
 
     // const [ searchStudents, setSearchStudents ] = useState( "" )
@@ -21,6 +33,7 @@ function StudentPage( ){
 
     return(
         <div>
+            <StudentForm addStudent={ addStudent } setStudentData={ setStudentData } studentData={ studentData } />
             <StudentList studentData={ studentData } />
         </div>
     )

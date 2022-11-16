@@ -1,80 +1,94 @@
 {
-    "students": [
-        {
-            "id":1,
-            "name":"Kimber",
-            "image":"https://thumbs.dreamstime.com/b/profile-picture-perfect-social-media-other-web-use-profile-picture-125320955.jpg",
-            "age": 28,
-            "location":"Ohio, USA",
-            "wins":"My new team",
-            "loss":"Lack of sleep"   
-        },
-
-        {
-            "id":2,
-            "name":"Nate",
-            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
-            "age": 21,
-            "location":"Texas, USA",
-            "win":"My new app",
-            "loss":"No losses today"
-        },
-
-        {
-            "id":3,
-            "name":"Marcos",
-            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
-            "age": 31,
-            "location":"Maine, USA",
-            "win":"Figuring out react wrong installation",
-            "loss":"Back pain"
-        },
-
-        {
-            "id":4,
-            "name":"Sam",
-            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
-            "age": 27,
-            "location":"New York, USA",
-            "win":"Making it through another day",
-            "loss":"Loosing Mario Party game in Nintendo Switch"
-        },
-
-        {
-            "id":5,
-            "name":"Adam",
-            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
-            "age": 38,
-            "location":"California, USA",
-            "win":"His cats did not kill each other",
-            "loss":"His cats broke the robot camera"
-        },
-
-
-        {
-            "id":6,
-            "name":"Mustafa",
-            "image":"https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
-            "age": 22,
-            "location":"New York, USA",
-            "win":"Uncle",
-            "loss":"Too many lectures"
-        }
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]
+  "students": [
+    {
+      "id": 1,
+      "name": "Kimber",
+      "image": "https://thumbs.dreamstime.com/b/profile-picture-perfect-social-media-other-web-use-profile-picture-125320955.jpg",
+      "age": 28,
+      "location": "Ohio, USA",
+      "wins": "My new team",
+      "loss": "Lack of sleep",
+      "feeling": "Write your feelings here"
+    },
+    {
+      "id": 2,
+      "name": "Nate",
+      "image": "https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+      "age": 21,
+      "location": "Texas, USA",
+      "win": "My new app",
+      "loss": "No losses today",
+      "feeling": "Write your feelings here"
+    },
+    {
+      "id": 3,
+      "name": "Marcos",
+      "image": "https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+      "age": 31,
+      "location": "Maine, USA",
+      "win": "Figuring out react wrong installation",
+      "loss": "Back pain",
+      "feeling": "Write your feelings here"
+    },
+    {
+      "id": 4,
+      "name": "Sam",
+      "image": "https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+      "age": 27,
+      "location": "New York, USA",
+      "win": "Making it through another day",
+      "loss": "Loosing Mario Party game in Nintendo Switch",
+      "feeling": "Write your feelings here"
+    },
+    {
+      "id": 5,
+      "name": "Adam",
+      "image": "https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+      "age": 38,
+      "location": "California, USA",
+      "win": "His cats did not kill each other",
+      "loss": "His cats broke the robot camera",
+      "feeling": "Write your feelings here"
+    },
+    {
+      "id": 6,
+      "name": "Mustafa",
+      "image": "https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
+      "age": 22,
+      "location": "New York, USA",
+      "win": "Proud uncle",
+      "loss": "Too many lectures",
+      "feeling": "Write your feelings here"
+    },
+    {
+      "name": " ",
+      "image": " ",
+      "age": 0,
+      "location": " ",
+      "wins": " ",
+      "loss": " ",
+      "feeling": " ",
+      "id": 7
+    },
+    {
+      "name": " ",
+      "image": " ",
+      "age": 0,
+      "location": " ",
+      "wins": " ",
+      "loss": " ",
+      "feeling": " ",
+      "id": 8
+    },
+    {
+      "name": " ",
+      "image": " ",
+      "age": 0,
+      "location": " ",
+      "wins": " ",
+      "loss": " ",
+      "feeling": " ",
+      "id": 9
+    }
+  ]
 }

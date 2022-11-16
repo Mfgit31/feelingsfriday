@@ -4,6 +4,8 @@ import '../App.css';
 import StudentPage from './StudentPage';
 import StudentHeader from './StudentHeader';
 import NavBar from "./NavBar";
+import StudentForm from './StudentForm';
+import StudentSearch from './StudentSearch';
 
 
 function App() {
@@ -11,26 +13,20 @@ function App() {
 
   return (
     <>
+      <div className="App">
+        <header className="App-header">
+          <h1><StudentHeader /></h1>
+          <h2>Feelings Friday</h2>
+          <NavBar />
+        </header>
+      </div>
       <Switch>
-        <Route path="/">
-          <div className="App">
-            <header className="App-header">
-              <h1><StudentHeader /></h1>
-              <h2>Feelings Friday</h2>
-              <NavBar />
-            </header>
-          </div>
-        </Route>
-
-        <Route path="/father">
-        <StudentPage />
-        </Route>
-
-
-
+        <Route exact path="/" component={StudentPage} />
+        <Route path="/StudentForm" component={StudentForm} />
+        <Route path="/StudentSearch" component={StudentSearch} />
       </Switch>
-
     </>
+ 
 
   );
 }
