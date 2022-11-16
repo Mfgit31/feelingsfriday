@@ -1,40 +1,61 @@
 import React, { useEffect, useState } from 'react'
 //import StudentSearch from './StudentSearch'
-import StudentForm from './StudentForm'
+// import StudentForm from './StudentForm'
 import StudentList from './StudentList'
 
-function StudentPage( ){
-   
-    const [students, setStudents] = useState([])
-
+function StudentPage( props ){
 
     const [ studentData, setStudentData ] = useState( [ ] )
 
-    const addStudent= (newStudent) => { 
-             setStudents([...students, newStudent])
-        }
-
-    
-    
-
-    
-
-    // const [ searchStudents, setSearchStudents ] = useState( "" )
-    
     const studentUrl = "http://localhost:3000/students"
-  
+
+        useEffect( () => {
+            fetch( studentUrl )
+            .then( r => r.json () )
+            .then( dataFromTheFetch => {   
+                
+                if (props.studentData) {
+                    console.log("Being rendered by search page" ) 
+                    console.log(props.student)
+                    setStudentData(props.studentData)
+                } else { 
+                    console.log("Being rendered by App") 
+                    setStudentData(dataFromTheFetch)
+            
+                }
+                    
+            
+            } )
+        } , [ props.studentData ] )
+
+
     
-    // const searchStudents = students.filter( studentObj => {})
-    useEffect( () => {
-      fetch( studentUrl )
-        .then( r => r.json () )
-        .then( data => setStudentData(data) )
-    } , [] )
+
+
+   
+    // const [students, setStudents] = useState([])
+
+
+    
+
+    // const addStudent= (newStudent) => { 
+    //          setStudents([...students, newStudent])
+    //     }
+
+    
+   
+
+    
+
+   
 
     return(
         <div>
-            <StudentForm addStudent={ addStudent } setStudentData={ setStudentData } studentData={ studentData } />
-            <StudentList studentData={ studentData } />
+            {/* <StudentForm addStudent={ addStudent } setStudentData={ setStudentData } studentData={ studentData } /> */}
+           
+            {/* <Search studentSearch={ studentSearch } setStudentSearch={ setStudentSearch } /> */}
+           
+            <StudentList studentData={ studentData }  />
         </div>
     )
 }

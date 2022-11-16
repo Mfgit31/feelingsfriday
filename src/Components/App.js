@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Link, useHistory } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import '../App.css';
 import StudentPage from './StudentPage';
 import StudentHeader from './StudentHeader';
@@ -20,11 +20,14 @@ function App() {
           <NavBar />
         </header>
       </div>
+    
+    
       <Switch>
         <Route exact path="/" component={StudentPage} />
-        <Route path="/StudentForm" component={StudentForm} />
-        <Route path="/StudentSearch" component={StudentSearch} />
+        <Route exact path="/StudentForm" component={StudentForm} />
+        <Route exact path="/StudentSearch" component={StudentSearch} />
       </Switch>
+      
     </>
  
 

@@ -4,6 +4,8 @@ import Student from './Student';
 
 function StudentList( { studentData } ) {
 
+  console.log(studentData)
+
 
     // const renderStudents = studentData.map( studentObj => {
         

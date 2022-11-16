@@ -22,6 +22,9 @@ import React, { useState } from 'react';
                 <p className="card__text">
                   { showData ? student.win : student.loss }
                 </p>
+                <p className="card__text">
+                  { student.feeling }
+                </p>
                 <div className="card__detail">
                   <p>{ student.age }</p>
                   <p>

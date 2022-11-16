@@ -54,61 +54,31 @@
       "id": 6,
       "name": "Mustafa",
       "image": "https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg",
-      "age": 22,
+      "age": 20,
       "location": "New York, USA",
       "win": "Proud uncle",
       "loss": "Too many lectures",
       "feeling": "Write your feelings here"
     },
     {
-      "name": " ",
-      "image": " ",
-      "age": 0,
-      "location": " ",
-      "wins": " ",
-      "loss": " ",
-      "feeling": " ",
-      "id": 7
-    },
-    {
-      "name": " ",
-      "image": " ",
-      "age": 0,
-      "location": " ",
-      "wins": " ",
-      "loss": " ",
-      "feeling": " ",
+      "name": " John",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png",
+      "age": "32",
+      "location": "Rhode Island ",
+      "win": "Friends",
+      "loss": "Meg",
+      "feeling": "Made through another day",
       "id": 8
     },
     {
-      "name": " ",
-      "image": " ",
-      "age": 0,
-      "location": " ",
-      "wins": " ",
-      "loss": " ",
-      "feeling": " ",
+      "name": " Peter",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png",
+      "age": "333",
+      "location": " Kansas",
+      "win": "Friends",
+      "loss": " Lots of rain ",
+      "feeling": "Yayyyy!!!",
       "id": 9
-    },
-    {
-      "name": " John",
-      "image": "https://cdn.vox-cdn.com/thumbor/S9Vs5ZWiATLt0td3AUsHV2_dDMI=/0x0:735x500/1000x1429/filters:focal(368x250:369x251)/cdn.vox-cdn.com/uploads/chorus_asset/file/19933026/image.png",
-      "age": "25",
-      "location": " Florida",
-      "wins": " Great weather",
-      "loss": " Hurricanes",
-      "feeling": " appreciative ",
-      "id": 10
-    },
-    {
-      "name": " ",
-      "image": " ",
-      "age": 0,
-      "location": " ",
-      "wins": " ",
-      "loss": " ",
-      "feeling": " ",
-      "id": 11
     }
   ]
 }

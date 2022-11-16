@@ -15,13 +15,13 @@ function StudentForm({ studentData, setStudentData }  ){
 
     const [ newStudentObj, setNewStudentObj] = useState(
         {
-            name: " ",
-            image: " ",
-            age: 0  ,
-            location: " ",
-            wins: " ",
-            loss: " ",
-            feeling: " "
+        name:"",
+        image:"",
+        age: 0 ,
+        location:"",
+        win:"",
+        loss:"",
+        feeling:""
         }
       )
 
@@ -38,37 +38,11 @@ function StudentForm({ studentData, setStudentData }  ){
           
         })
         .then(r => r.json())
-    
         .then(newObj => {
          setStudentData( [...studentData, newObj])
         })
         
       }
-
-
-
-
-
-
-    // const handleSubmit = (e) => { 
-    //         // let newFeeling = { 
-    //         //  name: " ",
-    //         //  image: " ",
-    //         //  age: 0  ,
-    //         //  location: " ",
-    //         //  wins: " ",
-    //         //  loss: " ",
-    //         //  feeling: " "
-
-    //     } 
-    //     fetch( studentUrl , { 
-    //         method: "POST", 
-    //         headers: {'Content-Type' : 'application/json'},
-    //         body: JSON.stringify(newFeeling) 
-    //     } )
-    //         .then(r => r.json()) 
-    //         .then(addStudent(newFeeling)) 
-    //      }
 
    
     
@@ -78,25 +52,25 @@ function StudentForm({ studentData, setStudentData }  ){
             <form onSubmit={ handleSubmit }>
         <div>
 
-          <input value={newStudentObj.name} type="text" name="name" placeholder="Name" 
+          <input value={newStudentObj.name} type="text" name="name" placeholder="NAME" 
           onChange={(se) => {setNewStudentObj( { ...newStudentObj , name: se.target.value} )}}/>
 
-          <input value={newStudentObj.image} type="text" name="image" placeholder="image" 
+          <input value={newStudentObj.image} type="text" name="image" placeholder="IMAGE" 
           onChange={(se) => { setNewStudentObj({...newStudentObj, image: se.target.value})}}/>
 
-          <input value={newStudentObj.age} type="number" name="age" placeholder="Age" 
+          <input value={newStudentObj.age} type="number" name="age" placeholder="AGE" 
           onChange={(se) => {setNewStudentObj({...newStudentObj, age: se.target.value})}}/>
 
-          <input value={newStudentObj.location} type="text" name="location" placeholder="location" 
+          <input value={newStudentObj.location} type="text" name="location" placeholder="LOCATION" 
           onChange={(se) => {setNewStudentObj({...newStudentObj, location: se.target.value})}}/>
 
-          <input value={newStudentObj.wins} type="text" name="wins" placeholder="wins" 
-          onChange={(se) => { setNewStudentObj({...newStudentObj, wins: se.target.value})}}/>
+          <input value={newStudentObj.win} type="text" name="win" placeholder="WIN" 
+          onChange={(se) => { setNewStudentObj({...newStudentObj, win: se.target.value})}}/>
 
-          <input value={newStudentObj.loss} type="text" name="loss" placeholder="Age" 
+          <input value={newStudentObj.loss} type="text" name="loss" placeholder="LOSS" 
           onChange={(se) => {setNewStudentObj({...newStudentObj, loss: se.target.value})}}/>
 
-          <input value={newStudentObj.feeling} type="text" name="feeling" placeholder="location" 
+          <input value={newStudentObj.feeling} type="text" name="feeling" placeholder="FEELINGS" 
           onChange={(se) => {setNewStudentObj({...newStudentObj, feeling: se.target.value})}}/>
        
        
