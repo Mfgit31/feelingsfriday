@@ -40,7 +40,7 @@ function StudentForm({ studentData, setStudentData }  ){
         .then(r => r.json())
     
         .then(newObj => {
-          setStudentData( [...studentData, newObj])
+         setStudentData( [...studentData, newObj])
         })
         
       }
@@ -79,25 +79,25 @@ function StudentForm({ studentData, setStudentData }  ){
         <div>
 
           <input value={newStudentObj.name} type="text" name="name" placeholder="Name" 
-          onChange={(e) => {setNewStudentObj( { ...newStudentObj , name: e.target.value} )}}/>
+          onChange={(se) => {setNewStudentObj( { ...newStudentObj , name: se.target.value} )}}/>
 
           <input value={newStudentObj.image} type="text" name="image" placeholder="image" 
-          onChange={(e) => { setNewStudentObj({...newStudentObj, image: e.target.value})}}/>
+          onChange={(se) => { setNewStudentObj({...newStudentObj, image: se.target.value})}}/>
 
           <input value={newStudentObj.age} type="number" name="age" placeholder="Age" 
-          onChange={(e) => {setNewStudentObj({...newStudentObj, age: e.target.value})}}/>
+          onChange={(se) => {setNewStudentObj({...newStudentObj, age: se.target.value})}}/>
 
           <input value={newStudentObj.location} type="text" name="location" placeholder="location" 
-          onChange={(e) => {setNewStudentObj({...newStudentObj, location: e.target.value})}}/>
+          onChange={(se) => {setNewStudentObj({...newStudentObj, location: se.target.value})}}/>
 
           <input value={newStudentObj.wins} type="text" name="wins" placeholder="wins" 
-          onChange={(e) => { setNewStudentObj({...newStudentObj, wins: e.target.value})}}/>
+          onChange={(se) => { setNewStudentObj({...newStudentObj, wins: se.target.value})}}/>
 
-          <input value={newStudentObj.loss} type="number" name="loss" placeholder="Age" 
-          onChange={(e) => {setNewStudentObj({...newStudentObj, loss: e.target.value})}}/>
+          <input value={newStudentObj.loss} type="text" name="loss" placeholder="Age" 
+          onChange={(se) => {setNewStudentObj({...newStudentObj, loss: se.target.value})}}/>
 
           <input value={newStudentObj.feeling} type="text" name="feeling" placeholder="location" 
-          onChange={(e) => {setNewStudentObj({...newStudentObj, feeling: e.target.value})}}/>
+          onChange={(se) => {setNewStudentObj({...newStudentObj, feeling: se.target.value})}}/>
        
        
        
