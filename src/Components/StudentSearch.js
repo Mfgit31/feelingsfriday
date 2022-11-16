@@ -1,11 +1,13 @@
-// import React from "react"
+import React from "react"
 
-// // function StudentSearch( { }) {
-// //     return(
-// //         <div>
+function StudentSearch() {
 
-// //         </div>
-// //     )
-// // }
+    const [ searchText, setSearchText ] = useState("")
+    return(
+        <div>
 
-// // export default StudentSearch;
+        </div>
+    )
+}
+
+export default StudentSearch;
