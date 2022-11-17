@@ -9,6 +9,8 @@ code {
     monospace;
 }
 .cards {
+  height: 1000px;
+  width: 2000px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -34,16 +36,23 @@ code {
   flex-direction: column;
   padding: 1rem;
 }
+
 .card__image {
+  /* height: 400px;
+  width: 300px; */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  filter: contrast(70%);
+  /* filter: contrast(70%); */
   overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+}
+.card-image-container {
+  height: 300px;
+  width: 250px;
 }
 .card__image:hover{
   filter: contrast(100%);
@@ -55,11 +64,12 @@ code {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.card__text, .card__detail p {
+.card__detail, .win_input_box, .loss_input_box, .card_text p {
   flex: 1 1 auto;
+  overflow-wrap: break-word;
   font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
+  line-height: 1;
+  margin-bottom: .75rem;
 }
 .card__detail {
   display: grid;
@@ -71,11 +81,11 @@ code {
 .card__detail button{
   text-align: center;
 }
-@media(max-width: 700px){
+/* @media(max-width: 700px){
   .cards__item{
     width: 50%;
   }
-}
+} */
 .add_a_student_button {
   width:200px;
   padding: 5px;

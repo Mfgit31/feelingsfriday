@@ -19,17 +19,26 @@ import React, { useState } from 'react';
               <div className="card__content">
                 <div className="card__title">{ student.name }</div>
                 
-                <p className="card__text">
-                  { showData ? student.win : student.loss }
-                </p>
-                <p className="card__text">
+               
+                <div>
+                <p className="card__feeling">
                   { student.feeling }
                 </p>
+                </div>
                 <div className="card__detail">
                   <p>{ student.age }</p>
                   <p>
                     { student.location }
                   </p>
+                  <p className="card__detail">
+                  { showData ? 
+                  `Daily Win: 
+                  ${student.win}` 
+                  : 
+                  `Daily Loss: 
+                  ${student.loss}` 
+                  }
+                </p>
                 </div>
               </div>
             </div>

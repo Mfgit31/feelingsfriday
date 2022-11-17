@@ -59,26 +59,6 @@
       "win": "Proud uncle",
       "loss": "Too many lectures",
       "feeling": "Write your feelings here"
-    },
-    {
-      "name": " John",
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png",
-      "age": "32",
-      "location": "Rhode Island ",
-      "win": "Friends",
-      "loss": "Meg",
-      "feeling": "Made through another day",
-      "id": 8
-    },
-    {
-      "name": " Peter",
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png",
-      "age": "333",
-      "location": " Kansas",
-      "win": "Friends",
-      "loss": " Lots of rain ",
-      "feeling": "Yayyyy!!!",
-      "id": 9
     }
   ]
 }
