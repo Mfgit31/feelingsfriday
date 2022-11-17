@@ -17,7 +17,13 @@ import React, { useState } from 'react';
                 className="card__image"
               />
               <div className="card__content">
-                <div className="card__title">{ student.name }</div>
+                <div className="card__title">
+                  <p>{ student.name }</p>
+                  <p>{ student.age }</p>
+                  <p>
+                    { student.location }
+                  </p>
+                </div>
                 
                
                 <div>
@@ -26,10 +32,7 @@ import React, { useState } from 'react';
                 </p>
                 </div>
                 <div className="card__detail">
-                  <p>{ student.age }</p>
-                  <p>
-                    { student.location }
-                  </p>
+                 
                   <p className="card__detail">
                   { showData ? 
                   `Daily Win: 

@@ -63,17 +63,19 @@ code {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .card__detail, .win_input_box, .loss_input_box, .card_text p {
   flex: 1 1 auto;
   overflow-wrap: break-word;
   font-size: 0.875rem;
   line-height: 1;
-  margin-bottom: .75rem;
+  margin-bottom: 4rem;
 }
 .card__detail {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
 }
 .card__detail p {
   text-align: center;
