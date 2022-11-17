@@ -16,13 +16,15 @@ function NavBar() {
     
     return (
         <nav>
+            <div className="nav_buttons">
          {/* <Switch>
             <Route> */}
-                <button onClick= {goHome} >Home</button>
-                <button onClick= {goForm} >Add a Student</button>
-                <button onClick= {goSearch} >Student Search</button>
+                <button className="home_button" onClick= {goHome} >Home</button>
+                <button className="add_a_student_button" onClick= {goForm} >Add a Student</button>
+                <button className="student_search_button" onClick= {goSearch} >Student Search</button>
             {/* </Route>
          </Switch> */}
+         </div>
         </nav>
     );
 }

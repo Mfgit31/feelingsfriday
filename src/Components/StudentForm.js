@@ -52,7 +52,7 @@ function StudentForm({ studentData, setStudentData }  ){
             <form onSubmit={ handleSubmit }>
             
         <div>
-        <div>
+        <div className="box_bar">
           
           <input className="name_input_box" value={newStudentObj.name} type="text" name="name" placeholder="NAME" 
           onChange={(se) => {setNewStudentObj( { ...newStudentObj , name: se.target.value} )}}/>
