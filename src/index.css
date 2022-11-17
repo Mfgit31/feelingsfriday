@@ -118,3 +118,8 @@ code {
   padding: 3px;
   position: relative;
 }
+.searchbar {
+  text-align: center;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
