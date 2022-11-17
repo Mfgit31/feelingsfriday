@@ -20,8 +20,8 @@ function NavBar() {
          {/* <Switch>
             <Route> */}
                 <button className="home_button" onClick= {goHome} >Home</button>
-                <button className="add_a_student_button" onClick= {goForm} >Add a Student</button>
-                <button className="student_search_button" onClick= {goSearch} >Student Search</button>
+                <button className="home_button" onClick= {goForm} >Add a Student</button>
+                <button className="home_button" onClick= {goSearch} >Student Search</button>
             {/* </Route>
          </Switch> */}
          </div>

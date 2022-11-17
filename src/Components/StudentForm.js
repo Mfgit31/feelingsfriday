@@ -82,7 +82,7 @@ function StudentForm({ studentData, setStudentData }  ){
             onChange={(se) => {setNewStudentObj({...newStudentObj, feeling: se.target.value})}}/>
           </div>
         </div>
-        <input className="add_a_student_button" type="submit" value="Add a Student" />
+        <input className="home_button" type="submit" value="Add a Student" />
        
         </div>
         

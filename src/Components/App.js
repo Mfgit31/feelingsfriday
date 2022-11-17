@@ -19,14 +19,12 @@ function App() {
           <h2>Feelings Friday</h2>
           <NavBar />
         </header>
-      </div>
-    
-    
       <Switch>
         <Route exact path="/" component={StudentPage} />
         <Route exact path="/StudentForm" component={StudentForm} />
         <Route exact path="/StudentSearch" component={StudentSearch} />
       </Switch>
+      </div>
       
     </>
  

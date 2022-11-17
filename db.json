@@ -8,7 +8,7 @@
       "location": "Ohio, USA",
       "wins": "My new team",
       "loss": "Lack of sleep",
-      "feeling": "Write your feelings here"
+      "feeling": "Full of feelings all the time"
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "location": "Maine, USA",
       "win": "Figuring out react wrong installation",
       "loss": "Back pain",
-      "feeling": "Write your feelings here"
+      "feeling": "My god...very appreciative of everybody"
     },
     {
       "id": 4,
@@ -44,7 +44,7 @@
       "id": 5,
       "name": "Adam",
       "image": "https://img.freepik.com/free-photo/fun-backpacker-pig-cartoon-character_183364-81008.jpg?w=2000",
-      "age": 38,
+      "age": 23,
       "location": "California, USA",
       "win": "His cats did not kill each other",
       "loss": "His cats broke the robot camera",
