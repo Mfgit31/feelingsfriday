@@ -53,27 +53,34 @@ function StudentForm({ studentData, setStudentData }  ){
             
         <div>
         <div className="box_bar">
-          
-          <input className="name_input_box" value={newStudentObj.name} type="text" name="name" placeholder="NAME" 
-          onChange={(se) => {setNewStudentObj( { ...newStudentObj , name: se.target.value} )}}/>
-
-          <input className="image_input_box" value={newStudentObj.image} type="text" name="image" placeholder="IMAGE" 
-          onChange={(se) => { setNewStudentObj({...newStudentObj, image: se.target.value})}}/>
-
-          <input className="age_input_box" value={newStudentObj.age} type="number" name="age" placeholder="AGE" 
-          onChange={(se) => {setNewStudentObj({...newStudentObj, age: se.target.value})}}/>
-
-          <input className="location_input_box" value={newStudentObj.location} type="text" name="location" placeholder="LOCATION" 
-          onChange={(se) => {setNewStudentObj({...newStudentObj, location: se.target.value})}}/>
-
-          <input className="win_input_box" value={newStudentObj.win} type="text" name="win" placeholder="WIN" 
-          onChange={(se) => { setNewStudentObj({...newStudentObj, win: se.target.value})}}/>
-
-          <input className="loss_input_box" value={newStudentObj.loss} type="text" name="loss" placeholder="LOSS" 
-          onChange={(se) => {setNewStudentObj({...newStudentObj, loss: se.target.value})}}/>
-
-          <input className="feelings_input_box" value={newStudentObj.feeling} type="text" name="feeling" placeholder="FEELINGS" 
-          onChange={(se) => {setNewStudentObj({...newStudentObj, feeling: se.target.value})}}/>
+          <div className="name_input_box">
+            <input value={newStudentObj.name} type="text" name="name" placeholder="NAME" 
+            onChange={(se) => {setNewStudentObj( { ...newStudentObj , name: se.target.value} )}}/>
+          </div>
+          <div className="image_input_box">
+            <input value={newStudentObj.image} type="text" name="image" placeholder="IMAGE" 
+            onChange={(se) => { setNewStudentObj({...newStudentObj, image: se.target.value})}}/>
+          </div>
+          <div className="age_input_box">
+            <input  value={newStudentObj.age} type="number" name="age" placeholder="AGE" 
+            onChange={(se) => {setNewStudentObj({...newStudentObj, age: se.target.value})}}/>
+          </div>
+          <div className="location_input_box">
+            <input  value={newStudentObj.location} type="text" name="location" placeholder="LOCATION" 
+            onChange={(se) => {setNewStudentObj({...newStudentObj, location: se.target.value})}}/>
+          </div>
+          <div className="win_input_box">
+            <input className="win_input_box" value={newStudentObj.win} type="text" name="win"   placeholder="WIN" 
+            onChange={(se) => { setNewStudentObj({...newStudentObj, win: se.target.value})}}/>
+          </div>
+          <div className="loss_input_box">
+            <input  value={newStudentObj.loss} type="text" name="loss" placeholder="LOSS" 
+            onChange={(se) => {setNewStudentObj({...newStudentObj, loss: se.target.value})}}/>
+          </div>
+          <div className="feelings_input_box">
+            <input  value={newStudentObj.feeling} type="text" name="feeling" placeholder="FEELINGS" 
+            onChange={(se) => {setNewStudentObj({...newStudentObj, feeling: se.target.value})}}/>
+          </div>
         </div>
         <input className="add_a_student_button" type="submit" value="Add a Student" />
        
