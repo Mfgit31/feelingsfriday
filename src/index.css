@@ -100,44 +100,60 @@ code {
 
 .name_input_box {
   width: 150px;
-  padding: 3px;
   position: center;
+  margin-bottom: 25px;
 }
 .image_input_box {
   width: 150px;
-  padding: 3px;
   position: center;
+  margin-bottom: 25px;
 }
 .age_input_box {
-  width: 100px;
-  padding: 3px;
-  position: relative;
+  width: 120px;
+  position: center;
+  margin-bottom: 25px;
 }
 .location_input_box {
   width: 150px;
-  padding: 3px;
-  position: relative;
+  position: center;
+  margin-bottom: 25px;
 }
 .win_input_box {
   width: 150px;
-  padding: 3px;
-  position: relative;
+  position: center;
+  margin-bottom: 25px;
 }
 .loss_input_box {
   width: 150px;
-  padding: 3px;
-  position: relative;
+  position: center;
+  margin-bottom: 25px;
 }
 .feelings_input_box {
   width: 200px;
-  /* height: 200px; */
-  padding: 3px;
-  position: relative;
+  position: center;
+  margin-bottom: 25px;
 }
-.searchbar {
-  text-align: center;
-  padding-bottom: 3px;
-  padding-top: 3px;
+
+  .inputsearch [type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+  }
+  .inputsearch {
+    background-color: var(--color-realbox-background);
+    
+    border-radius: 15px 15px 15px 15px;
+    color: var(--color-realbox-foreground);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: 0;
+    padding-inline-end: 100px;
+    padding-inline-start: 100px;
+    position: relative;
+   
+  
+ 
 }
 
 .home_button {

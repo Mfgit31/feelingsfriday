@@ -22,39 +22,12 @@ function StudentPage( props ){
                     console.log("Being rendered by App") 
                     setStudentData(dataFromTheFetch)
             
-                }
-                    
-            
+                }            
             } )
         } , [ props.studentData ] )
 
-
-    
-
-
-   
-    // const [students, setStudents] = useState([])
-
-
-    
-
-    // const addStudent= (newStudent) => { 
-    //          setStudents([...students, newStudent])
-    //     }
-
-    
-   
-
-    
-
-   
-
     return(
-        <div>
-            {/* <StudentForm addStudent={ addStudent } setStudentData={ setStudentData } studentData={ studentData } /> */}
-           
-            {/* <Search studentSearch={ studentSearch } setStudentSearch={ setStudentSearch } /> */}
-           
+        <div>    
             <StudentList studentData={ studentData }  />
         </div>
     )

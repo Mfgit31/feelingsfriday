@@ -30,10 +30,10 @@ function StudentSearch( { studentData }) {
         console.log( filteredStudentsArray )
 
     return(
-      <div className="searchbar">
+      <div className="inputsearch">
         <label htmlFor="search">SEARCH : </label>
       
-        <input
+        <input className="inputsearch"
 
         type="text"
         id="search"
