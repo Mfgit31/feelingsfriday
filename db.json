@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Marcos",
-      "image": "https://wordpress.bigissue.com/wp-content/uploads/2014/08/us-iphone-4-my-daddy-peppa-pig-edition-sticker-colouring-book-1530x860.jpg",
+      "image": "https://thumbs.dreamstime.com/b/fun-pig-d-illustration-80740252.jpg",
       "age": 31,
       "location": "Maine, USA",
       "win": "Getting through Phase-2 and staying with this awesome cohort",
@@ -61,24 +61,93 @@
       "feeling": "Cool"
     },
     {
+      "id": 7,
       "name": "Sade",
       "image": "https://i.ytimg.com/vi/4TYv2PhG89A/maxresdefault.jpg",
       "age": "69",
       "location": "Isaac's house",
       "win": "yessy",
       "loss": "nono",
-      "feeling": "Like spreading...",
-      "id": 7
+      "feeling": "Like spreading..."
+      
     },
     {
+      "id": 8,
       "name": "Jen, My Queen ",
       "image": "https://us.123rf.com/450wm/skathi/skathi1902/skathi190200104/125021457-vector-cartoon-style-illustration-of-cute-pink-winking-pig-in-blue-skirt-and-golden-crown-isolated-o.jpg?ver=6",
       "age": "25",
       "location": "Atlanta, GA",
       "win": "Being the best ",
       "loss": "No losses",
-      "feeling": "Feeling very helpful ",
-      "id": 8
+      "feeling": "Feeling very helpful"
+      
+    },
+    {
+      "id": 9,
+      "name": "HungryHog",
+      "image": "https://images.pond5.com/fun-pig-running-3d-animation-073693837_prevstill.jpeg",
+      "age": "24",
+      "location": "Denver, CO",
+      "win": "Eating yummy food",
+      "loss": "Dieting",
+      "feeling": "Hangry..."
+     
+    },
+    {
+      "id": 10,
+      "name": "Hog Boss",
+      "image": "https://img.freepik.com/free-photo/funny-pig-3d-illustration_183364-80298.jpg?w=360",
+      "age": "49",
+      "location": "NYC, NY",
+      "win": "Stock market and trading hoggies",
+      "loss": "Diet",
+      "feeling": "I need more hoggies to work for me"
+    },
+    {
+      "id": 11,
+      "name": "SuperHog",
+      "image": "https://thumbs.dreamstime.com/b/fun-pig-d-illustration-81154142.jpg",
+      "age": "36",
+      "location": "Cannot disclose that information",
+      "win": "Saving my fellow hogs",
+      "loss": "Not being able to help every hog",
+      "feeling": "With great power comes great responsibilities"
+    },
+    {
+      "id": 12,
+      "name": "Shopperholic Hog",
+      "image": "https://img.freepik.com/premium-photo/fun-pig-3d-illustration_183364-83651.jpg",
+      "age": "27",
+      "location": "Los Angeles, CA",
+      "win": "Just got approved for another credit card",
+      "loss": "Credit card bills",
+      "feeling": "Cannot wait to check out the new mall"
+    },
+    {
+      "id": 13,
+      "name": "LazyHog",
+      "image": "https://i.pinimg.com/736x/a4/2e/42/a42e4293334648dae31ec8054307322d.jpg",
+      "age": "47",
+      "location": "Philadelphia, PA",
+      "win": "Vacation time",
+      "loss": "My personal trainer",
+      "feeling": "Just want to chill and relax, no agenda, no plans."
+    },
+    {
+    "id": 14,
+    "name": "WorkoutHog Terminator",
+    "image": "https://i.pinimg.com/originals/84/c9/e8/84c9e8bdaba8c8c6f38e3c22d8e4ed27.jpg",
+    "age": "25",
+    "location": "Sydney, Australia",
+    "win": "Working out",
+    "loss": "Full gym",
+    "feeling": "Looking forward to that flexing competition"
     }
+    
+
+
+
+
+
   ]
 }

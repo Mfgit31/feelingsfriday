@@ -17,7 +17,7 @@ function App() {
         <header className="App-header">
           <h1><StudentHeader /></h1>
           <h2>Feelings Friday</h2>
-          <h3>Share a Win and a LOSS. Then feel free to share some feelings or anything else you would like to with this community.   </h3>
+          <h3>Join the HOG community!!! Add a hog of your choosing and share a Win and a LOSS. Then feel free to share some feelings or anything else you would like to with this community. Excited for everybody's creativity and responses.   </h3>
           <NavBar />
         </header>
       <Switch>
