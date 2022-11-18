@@ -18,7 +18,7 @@
       "location": "Texas, USA",
       "win": "My new app",
       "loss": "No losses today",
-      "feeling": "Write your feelings here"
+      "feeling": "I feel like making a Sade remix"
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
       "location": "New York, USA",
       "win": "Making it through another day",
       "loss": "Loosing Mario Party game in Nintendo Switch",
-      "feeling": "Write your feelings here"
+      "feeling": "Proud to announce his cohort is making it through another week"
     },
     {
       "id": 5,
@@ -46,9 +46,9 @@
       "image": "https://img.freepik.com/free-photo/fun-backpacker-pig-cartoon-character_183364-81008.jpg?w=2000",
       "age": 23,
       "location": "California, USA",
-      "win": "His cats did not kill each other",
-      "loss": "His cats broke the robot camera",
-      "feeling": "Write your feelings here"
+      "win": "Hit up an underground rave",
+      "loss": "Cats broke the robot camera",
+      "feeling": "Full"
     },
     {
       "id": 6,
@@ -56,9 +56,9 @@
       "image": "https://static.vecteezy.com/system/resources/previews/008/255/576/original/cute-goat-cartoon-premium-free-vector.jpg",
       "age": 20,
       "location": "New York, USA",
-      "win": "Proud uncle",
+      "win": "I am NOT the father ",
       "loss": "Too many lectures",
-      "feeling": "Write your feelings here"
+      "feeling": "Cool"
     },
     {
       "name": "Sade",
@@ -67,8 +67,18 @@
       "location": "Isaac's house",
       "win": "yessy",
       "loss": "nono",
-      "feeling": "Spread Operator",
+      "feeling": "Like spreading...",
       "id": 7
+    },
+    {
+      "name": "Jen, My Queen ",
+      "image": "https://us.123rf.com/450wm/skathi/skathi1902/skathi190200104/125021457-vector-cartoon-style-illustration-of-cute-pink-winking-pig-in-blue-skirt-and-golden-crown-isolated-o.jpg?ver=6",
+      "age": "25",
+      "location": "Atlanta, GA",
+      "win": "Being the best ",
+      "loss": "No losses",
+      "feeling": "Feeling very helpful ",
+      "id": 8
     }
   ]
 }
