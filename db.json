@@ -69,7 +69,6 @@
       "win": "yessy",
       "loss": "nono",
       "feeling": "Like spreading..."
-      
     },
     {
       "id": 8,
@@ -80,7 +79,6 @@
       "win": "Being the best ",
       "loss": "No losses",
       "feeling": "Feeling very helpful"
-      
     },
     {
       "id": 9,
@@ -91,7 +89,6 @@
       "win": "Eating yummy food",
       "loss": "Dieting",
       "feeling": "Hangry..."
-     
     },
     {
       "id": 10,
@@ -134,20 +131,24 @@
       "feeling": "Just want to chill and relax, no agenda, no plans."
     },
     {
-    "id": 14,
-    "name": "WorkoutHog Terminator",
-    "image": "https://i.pinimg.com/originals/84/c9/e8/84c9e8bdaba8c8c6f38e3c22d8e4ed27.jpg",
-    "age": "25",
-    "location": "Sydney, Australia",
-    "win": "Working out",
-    "loss": "Full gym",
-    "feeling": "Looking forward to that flexing competition"
+      "id": 14,
+      "name": "WorkoutHog Terminator",
+      "image": "https://i.pinimg.com/originals/84/c9/e8/84c9e8bdaba8c8c6f38e3c22d8e4ed27.jpg",
+      "age": "25",
+      "location": "Sydney, Australia",
+      "win": "Working out",
+      "loss": "Full gym",
+      "feeling": "Looking forward to that flexing competition"
+    },
+    {
+      "name": " John",
+      "image": "https://st2.depositphotos.com/1036149/12479/i/950/depositphotos_124792410-stock-photo-funny-pig-holding-eye.jpg",
+      "age": "17",
+      "location": " Florida",
+      "win": "Friends",
+      "loss": "Weather",
+      "feeling": "Good",
+      "id": 15
     }
-    
-
-
-
-
-
   ]
 }
